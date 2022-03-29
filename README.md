@@ -22,16 +22,14 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-![Screenshot 2022-03-29 at 21-21-14 Sunnyside Landing Page](https://user-images.githubusercontent.com/96676832/160655338-17d93c60-7de5-4f7a-8891-f47a6e6a7308.png)
 
-
-
+![Screenshot 2022-03-29 at 21-45-54 Sunnyside Landing Page](https://user-images.githubusercontent.com/96676832/160658163-63b6515a-f129-4c13-a683-37bb7056b7bb.png)
 
 
 ### Links
 
-- Solution URL:(https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
+- Solution URL:(https://github.com/Priya366/sunnyside-agency-landing-page)
+- Live Site URL:(https://sunnyside-landing-pg.netlify.app/)
 
 ## My process
 
