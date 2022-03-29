@@ -471,8 +471,6 @@ footer {
         background-position: center;
         height: 400px;
     }
-    /* section----5  */
-    .section-5 .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+    
+
 }
