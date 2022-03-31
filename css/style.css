@@ -18,6 +18,7 @@
     --Dark-grayish-blue: hsl(232, 10%, 55%);
     --Grayish-blue: hsl(210, 4%, 67%);
     --White: hsl(0, 0%, 100%);
+    --footer-bg: #90d4c5;
     --fs-body: 1rem;
     --ff-primary: 'Barlow', sans-serif;
     --ff-secondary: 'Fraunces', serif;
@@ -50,9 +51,9 @@ p {
 }
 
 .intro h1 {
-    letter-spacing: 1.6px;
-    font-size: 2.6rem;
-    font-weight: var(--fw-medium);
+    letter-spacing: 0.25em;
+    font-size: 3.3rem;
+    font-weight: var(--fw-bold);
 }
 
 section h2 {
@@ -83,11 +84,15 @@ section p {
 .section-3 h3 {
     color: var(--Dark-desaturated-cyan);
     font-weight: var(--fw-bold);
-    font-size: 1.45rem;
+    font-size: 1.65rem;
 }
 
 .sec-3-grid-graphic-text p {
     color: var(--Dark-moderate-cyan);
+}
+
+.section-3 p {
+    margin-bottom: 3em;
 }
 
 .section-4 h4 {
@@ -149,7 +154,7 @@ img {
 /* HEADER SECTION STYLING  */
 
 .header {
-    height: 650px;
+    height: 798px;
     background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,13 +165,13 @@ img {
 
 .intro {
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 3.3em;
 }
 
 .intro img {
     margin: 0 auto;
-    margin-top: 1em;
-    height: 90px;
+    margin-top: 6em;
+    height: 130px;
 }
 
 
@@ -222,7 +227,7 @@ img {
 }
 
 .grid-text {
-    height: 500px;
+    height: 600px;
     padding: 3em 5.5em;
     display: flex;
     flex-direction: column;
@@ -230,7 +235,7 @@ img {
 }
 
 .grid-img img {
-    height: 500px;
+    height: 600px;
     object-fit: cover;
     width: 100%;
 }
@@ -258,7 +263,7 @@ img {
 /* section---3 */
 
 .sec-3-grid-photography-text {
-    height: 500px;
+    height: 600px;
     background-image: url(/images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +279,7 @@ img {
     background-image: url(/images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -288,7 +293,7 @@ img {
 
 .section-4 {
     background-color: var(--clr-soft-pink);
-    padding: 5em 3em;
+    padding: 7em 3em;
     text-align: center;
 }
 
@@ -325,9 +330,9 @@ img {
 /* footer styling  */
 
 footer {
-    background-color: var(--Dark-moderate-cyan);
+    background-color: var(--footer-bg);
     color: var(--Dark-desaturated-cyan);
-    padding: 3em;
+    padding: 4em;
 }
 
 .footer-text {
@@ -371,20 +376,26 @@ footer {
     .section-5 .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .section-5 img {
+        object-fit: cover;
+    }
     .grid-text {
         align-items: center;
         text-align: center;
-        height: 380px;
+        height: 440px;
         padding: 1.5em;
     }
     .order-property {
         order: 2;
     }
     .grid-img img {
-        height: 300px;
+        height: 310px;
     }
     .section-4 {
-        padding: 2em;
+        padding: 3em 2em;
+    }
+    .section-4 h4 {
+        font-size: 1rem;
     }
 }
 
@@ -396,18 +407,25 @@ footer {
     .header {
         background-image: url(/images/mobile/image-header.jpg);
         background-size: cover;
-        height: 600px;
+        height: 536px;
     }
     .intro {
         margin-top: 3.25em;
+    }
+    .intro h1 {
+        font-size: 2rem;
+    }
+    .intro img {
+        margin-top: 2em;
+        height: 90px;
     }
     /* NAV styling  */
     .mobile-menu-toggle {
         display: block;
         position: absolute;
         right: 2.5em;
-        width: 2em;
-        height: 2em;
+        width: 1.5em;
+        height: 1.5em;
         border: 0;
         background: url(/images/icon-hamburger.svg);
         background-repeat: no-repeat;
@@ -464,13 +482,11 @@ footer {
     .sec-3-grid-photography-text {
         background-image: url(/images/desktop/image-photography.jpg);
         background-position: center;
-        height: 400px;
+        height: 600px;
     }
     .sec-3-grid-graphic-text {
         background-image: url(/images/desktop/image-graphic-design.jpg);
         background-position: center;
-        height: 400px;
+        height: 600px;
     }
-    
-
 }
