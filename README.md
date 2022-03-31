@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2022-03-29 at 21-45-54 Sunnyside Landing Page](https://user-images.githubusercontent.com/96676832/160658163-63b6515a-f129-4c13-a683-37bb7056b7bb.png)
+![Screenshot 2022-03-31 at 12-01-32 Sunnyside Landing Page](https://user-images.githubusercontent.com/96676832/160991140-8f85f4fe-d4fb-4703-8196-740b33ea510a.png)
 
 
 ### Links
